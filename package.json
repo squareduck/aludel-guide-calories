@@ -1,0 +1,10 @@
+{
+    "name": "aludel-guide-calories",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "aludel": "^0.0.17",
+        "ultradom": "^2.3.4"
+    }
+}

@@ -1,0 +1,6 @@
+@import './chota.css';
+
+.food,
+.stats {
+    padding: 20px;
+}
