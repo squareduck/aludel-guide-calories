@@ -12,6 +12,9 @@ const initialState = {
     food: [
         { name: 'Potato Chips', calories: 150 },
         { name: 'Coke', calories: 140 },
+        { name: 'Taco', calories: 135 },
+        { name: 'Cappuccino', calories: 70 },
+        { name: 'Pizza slice', calories: 155 },
     ],
 }
 
