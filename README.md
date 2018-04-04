@@ -1,4 +1,7 @@
-# Calorie calculator demo for Aludel framework
+# Calorie calculator demo for Aludel
+
+This demo uses only Component and Context parts of Aludel. It demonstrates how to
+build an app without higher level abstractions like Router or App.
 
 ## Usage
 
