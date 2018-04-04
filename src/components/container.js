@@ -4,7 +4,7 @@ import { createTemplate, createComponent } from 'aludel'
 import { foodComponent } from './food'
 import { statsComponent } from './stats'
 
-const layoutTemplate = createTemplate({
+const containerTemplate = createTemplate({
     children: {
         food: foodComponent,
         stats: statsComponent,
@@ -21,4 +21,4 @@ const layoutTemplate = createTemplate({
     },
 })
 
-export const layoutComponent = createComponent(layoutTemplate, {})
+export const containerComponent = createComponent(containerTemplate, {})

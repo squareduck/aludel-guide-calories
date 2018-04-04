@@ -6,7 +6,7 @@ import {
     createContext,
 } from 'aludel'
 
-import { layoutComponent } from './components/layout'
+import { containerComponent } from './components/container'
 
 const initialState = {
     food: [
@@ -18,19 +18,13 @@ const initialState = {
     ],
 }
 
-const context = createContext(initialState, render)
-
 function render(state) {
     console.log(state)
-    patch(layoutInstance(), document.querySelector('.app'))
+    patch(containerInstance(), document.querySelector('.app'))
 }
 
-/*
- * We don't need to trigger the first render() here because one of the children
- * has $init action. Manual render() will execute before $init actions got a
- * chance to complete.
- * 
- * $init actions run on instantiation.
- * 
- */
-const layoutInstance = createInstance(context, layoutComponent)
+const context = createContext(initialState, render)
+
+const containerInstance = createInstance(context, containerComponent)
+
+context.triggerUpdate()

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-aludel@^0.0.17:
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/aludel/-/aludel-0.0.17.tgz#fafee8ada68b78bf1cd23ffe99223f55147e4a1c"
+aludel@^0.0.18:
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/aludel/-/aludel-0.0.18.tgz#065336a74e47876d2897704cb56927cd15994efd"
   dependencies:
     history "^4.7.2"
     lodash.get "^4.4.2"

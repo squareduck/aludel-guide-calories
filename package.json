@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
-        "aludel": "^0.0.17",
+        "aludel": "^0.0.18",
         "ultradom": "^2.3.4"
     }
 }
